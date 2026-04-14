@@ -36,27 +36,32 @@ reports/ → test execution reports
 
 ---
 
-🎯 Purpose
+## 🎯 Purpose
 
 This project demonstrates:
 
-1. API test automation design
-2. Reusable test structure
-3. Backend validation using Python
-4. Real-world testing approach for REST APIs
+- API test automation design
+- Reusable test structure
+- Backend validation using Python
+- Real-world testing approach for REST APIs
 
 ---
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
+
 Add API request/response logging
+
 Integrate reporting (HTML / Allure)
+
 Add environment configuration support
+
 Implement test data management
+
 Integrate with CI/CD pipelines (GitHub Actions)
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Deepak Kumar
 
