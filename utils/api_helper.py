@@ -1,4 +1,7 @@
 import requests
+from utils.logger import get_logger
+
+logger = get_logger()
 
 
 class APIClient:
@@ -7,4 +10,10 @@ class APIClient:
         self.base_url = base_url
 
     def get(self, endpoint):
-        return requests.get(f"{self.base_url}{endpoint}")
+        url = f"{self.base_url}{endpoint}"
+        logger.info(f"Sending GET request to: {url}")
+
+        response = requests.get(url)
+
+        logger.info(f"Response Status: {response.status_code}")
+        return response
